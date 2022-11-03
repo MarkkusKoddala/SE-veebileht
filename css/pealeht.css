@@ -22,7 +22,8 @@
   width: 100%;
   align-items: center;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid whitesmoke;
 }
 .navbar p{
   color: aliceblue;
@@ -37,11 +38,49 @@
   list-style: none;
   display: inline-block;
   margin: 0px 20px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
+
   
+}
+.tutvustavTekst{
+  font-family: monospace;
+  top: 200px;
+  position: absolute;
+  left: 35%;
+}
+.tutvustavTekst #küsilause1{
+  font-size: 20px;
+  color: white;
+  position: relative;
+  font-weight: 700;
+  text-align: center;
 
+}
+.tutvustavTekst #lause2{
+  font-size: x-large;
+  color: white;
+  position: relative;
+  font-weight: 900;
+  font-size: 2cm;
+  text-align: center;
 
+}
+.tutvustavTekst #lause3{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+.tutvustavTekst #sõna1{
+  color: beige;
+}
+.selgitav #küsimärk{
+  border: 1px solid green;
+  font-size: 1cm;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  color: white;
 }
 .jalus{
   position: absolute;
@@ -51,3 +90,4 @@
   bottom: 0;
   height: 50px;
 } 
+
