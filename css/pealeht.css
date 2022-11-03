@@ -1,0 +1,45 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.taguminePilt{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+
+}
+.navbar {
+  justify-content: space-between;
+  border: 3px solid green;
+  padding: 70px 0;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.navbar p{
+  color: aliceblue;
+  margin-left: 100px;
+}
+.navbar ul{
+  margin-right: 100px;
+}
+.navbar ul li{
+  color: white;
+  font-size: x-large;
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  padding: 0px 10px;
+
+
+}
