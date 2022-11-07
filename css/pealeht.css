@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 *{
   padding: 0px;
   margin: 0px;
@@ -16,8 +17,7 @@
 }
 .navbar {
   justify-content: space-between;
-  border: 3px solid green;
-  padding: 30px 0;
+  padding: 10px 0;
   margin: auto;
   width: 100%;
   align-items: center;
@@ -28,6 +28,8 @@
 .navbar p{
   color: aliceblue;
   margin-left: 100px;
+  font-size: 2cm;
+  font-family: 'Chakra Petch', sans-serif;
 }
 .navbar ul{
   margin-right: 100px;
@@ -38,19 +40,23 @@
   list-style: none;
   display: inline-block;
   margin: 0px 20px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   letter-spacing: 1px;
+  border-bottom: 1px solid white;
 
   
 }
 .tutvustavTekst{
   font-family: monospace;
-  top: 200px;
   position: absolute;
-  left: 35%;
+  width: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  
 }
 .tutvustavTekst #küsilause1{
-  font-size: 20px;
+  font-size: 2cm;
   color: white;
   position: relative;
   font-weight: 700;
@@ -62,8 +68,9 @@
   color: white;
   position: relative;
   font-weight: 900;
-  font-size: 2cm;
+  font-size: 20px;
   text-align: center;
+  padding-top: 20px;
 
 }
 .tutvustavTekst #lause3{
@@ -74,19 +81,39 @@
 .tutvustavTekst #sõna1{
   color: beige;
 }
-.selgitav #küsimärk{
-  border: 1px solid green;
-  font-size: 1cm;
-  font-weight: 900;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: relative;
-  color: white;
+.tutvustavTekst #sõna2{
+  color: black;
 }
+.selgitav{
+  position: relative;
+  width: 100%;
+  border: 1px solid green;
+  height: 7cm;
+  top: 50%;
+
+
+
+}
+.selgitav #pildid{
+  position: absolute;
+  display: flex;
+  font-size: 3cm;
+  color: white;
+  letter-spacing: 50px;
+  border: 1px solid green;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+
+  
+}
+
+
 .jalus{
   position: absolute;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  border: 3px solid green;
   bottom: 0;
   height: 50px;
 } 
