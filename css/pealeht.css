@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Raleway:wght@200&display=swap');
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
-
 .taguminePilt{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpeg);
   height: 100vh;
@@ -14,7 +13,7 @@
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
-
+  position: relative;
 }
 .navbar {
   justify-content: space-between;
@@ -33,7 +32,7 @@
   font-family: 'Chakra Petch', sans-serif;
 }
 .navbar ul{
-  margin-right: 100px;
+  margin-right: 200px;
 }
 .navbar ul li{
   color: white;
@@ -44,8 +43,6 @@
   font-family: 'Chakra Petch', sans-serif;
   letter-spacing: 1px;
   border-bottom: 1px solid white;
-
-  
 }
 .tutvustavTekst{
   font-family: monospace;
@@ -54,9 +51,7 @@
   top: 10%;
   left: 5%;
   max-width: 70%;
-  border: 1px solid green;
   padding: 5px;
-  
 }
 .tutvustavTekst #küsilause1{
   font-size: 2cm;
@@ -64,7 +59,6 @@
   position: relative;
   font-weight: 700;
   text-align: left;
-
 }
 .tutvustavTekst #lause2{
   font-size: x-large;
@@ -75,47 +69,82 @@
   text-align: left;
   padding-top: 30px;
   font-family: 'Arvo', serif;
-
 }
-.selgitav{
-  position: fixed;
-  width: 80%;
-  border: 1px solid green;
+.pildid{
+  position: relative;
   height: 7cm;
-  top: 70%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.selgitav .pildid{
-  position: relative;
   display: flex;
-  font-size: 3cm;
+  font-size: 60px;
   color: white;
-  letter-spacing: 50px;
-  border: 1px solid green;
   justify-content: center;
   padding: 1cm;
+  font-family: 'Raleway', sans-serif;
 }
-.selgitav .pildid #kast1{
-  padding: 0cm 2cm;
-  border: 1px solid green;
-  background: rgba(14, 31, 182, 0.712);
+.pildid #kast1{
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  margin: 0px 50px;
+  align-items: center;
+  border-radius: 10px;
 }
-.selgitav .pildid p{
-  font-size: small;
-  letter-spacing: 0cm;
+.pildid #kast2{
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  align-items: center;
+  margin: 0px 50px;
+  border-radius: 10px;
 }
-.selgitav .pildid #kast2{
-  padding: 0cm 2cm;
+.pildid #kast3{
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  align-items: center;
+  margin: 0px 50px;
+  border-radius: 10px;
 }
-.selgitav .pildid #kast3{
-  padding: 0cm 2cm;
+.pildid #pealkiri {
+  color: aquamarine;
+  font-size: 25px;
+}
+.pildid p{
+  font-size: 20px;
+  text-align:left;
+  margin: 0px 20px;
+  line-height: 30px;
 }
 .jalus{
   position: absolute;
+  bottom: 0%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  bottom: 0;
-  height: 50px;
-} 
+  height: 2cm;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  
+}
+.jalus #ikoonid {
+  color: white;
+  font-size: 1cm;
+  letter-spacing: 15px;
+  align-items: center;
+}
+.jalus ul li {
+  color: white;
+  font-size: 30px;
+  display: inline;
+  padding: 0px 30px;
+  font-family: 'Raleway', sans-serif;
+}
 
