@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.päis{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./taustapilt.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.tekst{
+    width: 90%;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tekst h1{
+    font-size: 60px;
+}
+
+/*----- õpetajad -----*/
+
+.õpetajad{
+    width: 80;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+}
+
+p{
+    color: gray;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.õpetajad2{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between ;
+}
+
+.järjestus{
+    flex-basis: 31%;
+    background: beige;
+    border-radius: px;
+    margin-bottom: 5%;
+    padding: 20px 12 px;
+    box-sizing: border-box;
+}
+
+/*------- Õpetajate pildid ----*/
+
+
+.õ_järjestus{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.õ_järjestus img{
+    max-width: 100%;
+    height: auto; 
+}
+
+.õp_piltide_jär{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgb(211,211,211,0.7);  
+}
+
+/*------- Hinnakiri ----*/
+
+.hinnakiri{
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: gray;
+}
+
+.hinnakiri h1{
+    color: black;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hinnakirja_järjestus{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+}
+
+.h_järjestus{
+    background: beige;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+
+.h_järjestus p{
+    font-size: 22px;
+}
+
+.h_järjestus h2{
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+
+.h_järjestus h2 span{
+    font-size: 20px;
+}
+
+.h_järjestus ul{
+    text-align: left;
+    margin: 20px 0;
+    color: black;
+    list-style: none;
+}
+
+.h_järjestus ul li{
+    margin: 15px 0;  
+}
+
+.ühenduse_võtmine h2{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.ühenduse_võtmine h3{
+    font-size: 28px;
+    font-weight: 500;
+    padding: 15px 0;
+    text-align: center;
+}
+
