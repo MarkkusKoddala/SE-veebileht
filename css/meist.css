@@ -1,0 +1,99 @@
+/* taustapilt */
+.taustaPilt{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(taustapilt.jpeg)
+}
+
+/* teksti üldine ülesehitus */
+.tekst{
+    width: 90%;
+    color: white;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* pildipealse teksti ülesehitus */
+.tekst h1{
+    font-size: 70px;
+}
+.firmanimi {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 150px;
+    vertical-align: sub;
+}
+
+/* Meist */
+.meist {
+    width: 80;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.meist h1 {
+    font-size: 30px;
+}
+.meist p {
+    color: gray;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+/* Ajalugu */
+.ajalugu {
+    width: 80;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.ajalugu h1 {
+    font-size: 30px;
+}
+.ajalugu p {
+    color: gray;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+/* Tule tööle */
+.töö {
+    width: 80;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.töö h1 {
+    font-size: 30px;
+}
+.töö p {
+    color: gray;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.põhjused {
+    display: flex;
+    justify-content:space-between ;
+}
+
+/* Tule tööle pildid (need lihtsalt ajutiselt) */ 
+
+.töö_pildid {
+    margin-bottom: -5%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: auto;
+    left: 0;
+}
