@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+
 }
 
 .päis{
@@ -12,6 +12,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 .tekst{
     width: 90%;
@@ -34,6 +35,7 @@
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 30px;
@@ -104,6 +106,7 @@ p{
   min-height: 100vh;
   margin: auto;
   background-color: gray;
+  font-family: 'Poppins', sans-serif;
 }
 
 .hinnakiri h1{
