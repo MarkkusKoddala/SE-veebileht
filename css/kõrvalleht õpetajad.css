@@ -1,21 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+.taustaPilt{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(taustapilt.jpeg)
 }
 
-.päis{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./taustapilt.jpeg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
 .tekst{
     width: 90%;
-    color:black;
+    color:white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,6 +16,11 @@
     font-size: 60px;
 }
 
+.firmanimi {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 150px;
+    vertical-align: sub;
+}
 /*----- õpetajad -----*/
 
 .õpetajad{
