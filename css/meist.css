@@ -1,6 +1,6 @@
 /* taustapilt */
 .taustaPilt{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpeg)
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(taustapilt.jpeg)
 }
 
 /* teksti üldine ülesehitus */
@@ -27,73 +27,119 @@
 
 /* Meist */
 .meist {
-    width: 80;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
 }
 .meist h1 {
     font-size: 30px;
 }
 .meist p {
-    color: gray;
     font-size: 15px;
-    line-height: 22px;
+}
+.meist h2 {
+    color: gray;
+    font-size: 20px;
     padding: 10px;
 }
+.meist h3 {
+    font-size: 20px;
+}
+.tulbad {
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    gap: 15%;
+    grid-auto-flow: column;
+}
+.tulp {
+    margin: auto;
+    text-align: center;
+    width:100%;
+}
 
+figcaption {
+    text-align: center;
+    width: 100px;
+}
+figure {
+    display: inline-block;vertical-align: middle;
+}
+.pildid {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.kontaktid {
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.kontaktid #ikoonid {
+    font-size: 1cm;
+    letter-spacing: 15px;
+    align-items: center;
+  }
 /* Ajalugu */
 .ajalugu {
-    width: 80;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
 }
 .ajalugu h1 {
     font-size: 30px;
 }
-.ajalugu p {
+.ajalugu h2 {
     color: gray;
+    font-size: 20px;
+    padding: 10px; 
+}
+.ajalugu p {
     font-size: 15px;
-    line-height: 22px;
-    padding: 10px;
+    padding: 10px; 
+}
+.firmanimi2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+}
+/* tule tööle */
+.põhjused {
+    padding: 0rem 2rem 0rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    gap: 4px;
+    grid-auto-flow: column;
+}
+img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
 }
 
-/* Tule tööle */
 .töö {
-    width: 80;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
 }
 .töö h1 {
     font-size: 30px;
 }
 .töö p {
-    color: gray;
     font-size: 15px;
-    line-height: 22px;
     padding: 10px;
 }
-
-.põhjused {
-    display: flex;
-    justify-content:space-between ;
-}
-
-/* Tule tööle pildid (need lihtsalt ajutiselt) */ 
-
-.töö_pildid {
-    margin-bottom: -5%;
-    margin-top: 3%;
-    display: flex;
-    justify-content: space-around;
-}
-.layer{
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: auto;
-    left: 0;
+.töö h2 {
+    color: gray;
+    font-size: 20px;
+    padding: 10px;
 }
