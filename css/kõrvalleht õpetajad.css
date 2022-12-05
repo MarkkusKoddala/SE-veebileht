@@ -57,6 +57,24 @@ p{
     box-sizing: border-box;
 }
 
+/*----- Loe rohkem/Loe vähem nupp -----*/
+#more{display: none;}
+
+#more2{display: none;}
+
+#more3{display: none;}
+
+button {
+    background-color: rgb(211,211,211,0.7);
+    border: none;
+    color: white;
+    padding: 7px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
 /*------- Õpetajate pildid ----*/
 
 
@@ -92,6 +110,7 @@ p{
 .layer:hover{
     background: rgb(211,211,211,0.7);  
 }
+
 
 /*------- Hinnakiri ----*/
 
@@ -142,7 +161,7 @@ p{
 }
 
 .h_järjestus ul{
-    text-align: left;
+    text-align: center;
     margin: 20px 0;
     color: black;
     list-style: none;
