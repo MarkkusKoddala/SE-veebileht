@@ -10,22 +10,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/752d18289f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="navbar">
-        <p>õpi</p>
-        <ul>
+    <section class="taustaPilt">
+        <div class="navbar">
+            <div class="toggle">
+                <i class="fa-solid fa-brush"></i>
+              </div>
+          <p>õpi</p>
+          <ul>
             <li><a href=".\pealeht.html">Pealeht</a></li>
-            <li><a href=".\kõrvallehtõpetajad.html"> Teenused </a></li>
-        <li><a href=".\meist.html"> Meist </a></li>
-        </ul>
-    </div>
-   <section class="päis">
-    <div class="tekst">
-        <h1>Vali endale abiõpetaja</h1>
-    </div>
-    
-</section>
+            <li><a href=".\kõrvallehtõpetajad.html">Teenused</a></li>
+            <li><a href=".\meist.html">Meist</a></li>
+          </ul>
+        </div>
+        <div class="tekst">
+          <h1>Abiõpetajad ettevõttes <span class="firmanimi">õpi</span></h1>
+        </div>
+    </section>
+
+<script src="JS_õpetajatelehel.js"></script>
 
 <!------ õpetajad ------->
 
@@ -36,18 +41,22 @@
     <div class="õpetajad2">
         <div class="järjestus">
             <h3>Mari</h3>
-            <p>Mari on täielikult spetsialiseerunud matemaatika õpetamisele. Ta on Tartu Ülikooli kolmanda aasta matemaatika tudeng ning oskab sind kindlasti mure korral aidata. Samuti on ta andnud kõrgemat matemaatikat esimese aasta tudengitele ning enamus tema õpilasi said eksami esimese korraga läbi.</p>
-        </div>
+                <p>Mari on täielikult spetsialiseerunud matemaatika õpetamisele.<span id="dots">...</span><span id="more">Ta on Tartu Ülikooli kolmanda aasta matemaatika tudeng ning oskab sind kindlasti mure korral aidata. Samuti on ta andnud kõrgemat matemaatikat esimese aasta tudengitele ning enamus tema õpilasi said eksami esimese korraga läbi.</span></p>
+                <button onclick="myFunction()" id="myBtn">Loe rohkem</button>
+        </div> 
         <div class="järjestus">
             <h3>Joonas</h3>
-            <p>Kui tunned, et soovid abi kõigi ainetega, siis sinu õpetajaks sobib Joonas. Ta oskab lahendada ka kõige keerukamaid programmeerimise ülesandeid ning ei jää hätta raskeimate matemaatika ülesannetega. Samuti oskab Joonas vastata sinu küsimustele, mis seonduvad arvuti arhitekuuri või riistvaraga.</p>
+            <p>Kui tunned, et soovid abi kõigi ainetega, siis sinu õpetajaks sobib Joonas.<span id="dots2">...</span><span id="more2">Ta oskab lahendada ka kõige keerukamaid programmeerimise ülesandeid ning ei jää hätta raskeimate matemaatika ülesannetega. Samuti oskab Joonas vastata sinu küsimustele, mis seonduvad arvuti arhitekuuri või riistvaraga.</span></p>
+            <button onclick="myFunction2()" id="myBtn2">Loe rohkem</button>                   
         </div>
         <div class="järjestus">
             <h3>Triin</h3>
-            <p>Vali enda abiõpetajaks Triin, kui soovid, et keegi teeks sulle selgeks kõik programmeerimisega seonduva. Samuti suudab Triin lahendada suurepäraselt matemaatilise maailmapildi ülesandeid ning muudab nende lahendamise ka sinu jaoks kergeks. Triin on olnud programmerimise praktikumi juhendaja esimese aasta tudengitele.</p>
+            <p>Vali enda abiõpetajaks Triin, kui soovid, et keegi teeks sulle selgeks kõik<span id="dots3">...</span><span id="more3"> programmeerimisega seonduva. Samuti suudab Triin lahendada suurepäraselt matemaatilise maailmapildi ülesandeid ning muudab nende lahendamise ka sinu jaoks kergeks. Triin on olnud programmerimise praktikumi juhendaja esimese aasta tudengitele.</span></p>
+            <button onclick="myFunction3()" id="myBtn3">Loe rohkem</button>            
         </div>
     </div>
 </section>
+
 
 <!------- Õpetajate pildid ------>
 <section class="õpetajate_pildid">
@@ -58,7 +67,7 @@
             </div>
         </div>
         <div class="õ_järjestus">
-            <img src="/css/teine õpetaja.jpg">
+            <img src="/css/teine õpetaja.webp">
             <div class="layer">
             </div>
         </div>
@@ -112,6 +121,6 @@
     </div>
 </section>
 
-
+<script src="yldine.js"></script>
 </body>
 </html>

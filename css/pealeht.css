@@ -5,8 +5,9 @@
   margin: 0px;
   box-sizing: border-box;
 }
+/*----- taustapilt -----*/
 .taguminePilt{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(taustapilt.jpeg);
   height: 100vh;
   background-repeat: no-repeat;
   width: 100%;
@@ -15,6 +16,7 @@
   background-blend-mode: darken;
   position: relative;
 }
+/*----- suur lööklause + kirjeldav lause  -----*/
 .tutvustavTekst{
   font-family: monospace;
   position: relative;
@@ -22,25 +24,19 @@
   top: 10%;
   left: 5%;
   max-width: 70%;
-  padding: 5px;
+  text-align: left;
+  color: white;
 }
 .tutvustavTekst #küsilause1{
   font-size: 2cm;
-  color: white;
-  position: relative;
   font-weight: 700;
-  text-align: left;
 }
 .tutvustavTekst #lause2{
-  font-size: x-large;
-  color: white;
-  position: relative;
   font-weight: 900;
   font-size: 30px;
-  text-align: left;
   padding-top: 30px;
-  font-family: 'Arvo', serif;
 }
+/*----- kolm kasti lehe alumises osas koos ikoonide ja kirjeldavate tekstidega  -----*/
 .pildid{
   position: relative;
   height: 7cm;
@@ -75,6 +71,7 @@
   margin: 20px 20px;
   line-height: 30px;
 }
+/*----- jalus koos ikoonide ja kontaktandmetega -----*/
 .jalus{
   position: absolute;
   width: 100%;
@@ -90,6 +87,7 @@
   font-size: 1cm;
   letter-spacing: 15px;
   align-items: center;
+  text-decoration: none;
 }
 .jalus ul li {
   color: white;
@@ -97,5 +95,17 @@
   display: inline;
   padding: 0px 30px;
   font-family: 'Raleway', sans-serif;
+}
+.jalus #ikoonid{
+  text-decoration: none;
+}
+.jalus #ikoonid a:link{
+  color: white;
+}
+.jalus #ikoonid a:hover{
+  color: white;
+}
+.jalus #ikoonid a:visited {
+  color: white;
 }
 
