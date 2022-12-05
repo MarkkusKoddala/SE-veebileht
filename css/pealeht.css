@@ -3,7 +3,7 @@
 
 *{
   padding: 0px;
-  margin: 0px;
+  margin:px;
   box-sizing: border-box;
 }
 /*----- taustapilt -----*/
@@ -44,7 +44,7 @@ body{
   color: white;
   gap: 10px;
   position: absolute;
-  top: 55%;
+  top: 65%;
   width: 100%;
 }
 .pildid .kast{
@@ -55,6 +55,7 @@ body{
   align-items: center;
   border-radius: 10px;
   overflow:auto;
+  margin-bottom: 150px;
 }
 .pildid i{
   margin: 10px;
