@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 /* taustapilt */
@@ -25,25 +24,29 @@
 /* Navigation bar design */
 .navbar{
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 0px 100px 0px 0px;
     margin: auto;
     width: 100%;
     align-items: center;
     display: flex;
     background-color: rgb(0, 0, 0);
     border-bottom: 1px solid whitesmoke;
+    height: 120px;
+    color: white;
+}
+.navbar.dark{
+    background-color: rgb(96 73 53);
 }
 .navbar p{
-    color: aliceblue;
     margin-left: 100px;
-    font-size: 1.5cm;
+    font-size: 2cm;
     font-family: 'Chakra Petch', sans-serif;
+    padding: 0px;
   }
 .navbar ul{
     margin-right: 100px;
 }
 .navbar ul li{
-    color: white;
     font-size: x-large;
     display: inline-block;
     margin: 0px 20px;
@@ -52,6 +55,21 @@
     border-bottom: 1px solid white;
     list-style: none;
 }
+.toggle {
+    width: 3rem;
+    height: 2rem;
+    background-color: rgb(96 73 53);
+    position: absolute;
+    top: 2.8rem;
+    right: 7rem;
+    display: grid;
+    place-items: center;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  .toggle.dark{
+    background-color: rgb(0, 0, 0);
+  }
 
 /* linkide ülesehitus navigation bar'il */
 /* Jooneta link */
@@ -59,10 +77,10 @@
     text-decoration: none;
 }
 .navbar ul li a:link {
-    color: rgb(197, 101, 117);
+    color: white;
 }
 .navbar ul li a:visited {
-    color: rgb(197, 101, 117);
+    color: white;
 }
 .navbar ul li a:hover {
     color: white;

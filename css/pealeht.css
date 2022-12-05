@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .taguminePilt{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(taustapilt.jpeg);
   height: 100vh;
   background-repeat: no-repeat;
   width: 100%;
@@ -14,35 +14,6 @@
   background-position: center;
   background-blend-mode: darken;
   position: relative;
-}
-.navbar {
-  justify-content: space-between;
-  padding: 10px 0;
-  margin: auto;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  background-color: rgb(0, 0, 0);
-  border-bottom: 1px solid whitesmoke;
-}
-.navbar p{
-  color: aliceblue;
-  margin-left: 100px;
-  font-size: 2cm;
-  font-family: 'Chakra Petch', sans-serif;
-}
-.navbar ul{
-  margin-right: 200px;
-}
-.navbar ul li{
-  color: white;
-  font-size: x-large;
-  list-style: none;
-  display: inline-block;
-  margin: 0px 20px;
-  font-family: 'Chakra Petch', sans-serif;
-  letter-spacing: 1px;
-  border-bottom: 1px solid white;
 }
 .tutvustavTekst{
   font-family: monospace;
@@ -79,40 +50,21 @@
   display: flex;
   font-size: 60px;
   color: white;
-  justify-content: center;
   padding: 1cm;
   font-family: 'Raleway', sans-serif;
 }
-.pildid #kast1{
+.pildid #kast{
   background: rgba(0,0,0,0.5);
   display: flex;
-  width: 500px;
-  height: 200px;
   padding: 20px;
   margin: 0px 50px;
   align-items: center;
   border-radius: 10px;
-}
-.pildid #kast2{
-  background: rgba(0,0,0,0.5);
-  display: flex;
   width: 500px;
-  height: 200px;
-  padding: 20px;
-  align-items: center;
-  margin: 0px 50px;
-  border-radius: 10px;
+  height: 240px;
+  overflow:auto;
 }
-.pildid #kast3{
-  background: rgba(0,0,0,0.5);
-  display: flex;
-  width: 500px;
-  height: 200px;
-  padding: 20px;
-  align-items: center;
-  margin: 0px 50px;
-  border-radius: 10px;
-}
+
 .pildid #pealkiri {
   color: aquamarine;
   font-size: 25px;
@@ -120,19 +72,18 @@
 .pildid p{
   font-size: 20px;
   text-align:left;
-  margin: 0px 20px;
+  margin: 20px 20px;
   line-height: 30px;
 }
 .jalus{
   position: absolute;
-  bottom: 0%;
   width: 100%;
+  bottom: 0%;
   height: 2cm;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0px 50px;
-  
+  padding: 0px 50px;  
 }
 .jalus #ikoonid {
   color: white;
