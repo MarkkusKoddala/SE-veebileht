@@ -56,9 +56,8 @@
     list-style: none;
 }
 .toggle {
-    width: 3rem;
-    height: 2rem;
-    background-color: rgb(96 73 53);
+    font-size: 1cm;
+    color: rgb(96 73 53);
     position: absolute;
     top: 2.8rem;
     right: 7rem;
@@ -68,7 +67,7 @@
     cursor: pointer;
   }
   .toggle.dark{
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
   }
 
 /* linkide ülesehitus navigation bar'il */

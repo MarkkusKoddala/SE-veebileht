@@ -1,8 +1,10 @@
 const container = document.querySelector(".navbar");
+const container2 = document.querySelector(".toggle");
 const toggle = document.querySelector(".toggle");
 
 toggle.addEventListener("click", () => {
   container.classList.toggle("dark")
-    ? (toggle.firstElementChild.className = "far fa-moon")
-    : (toggle.firstElementChild.className = "far fa-sun");
+  container2.classList.toggle("dark")
+    ? (toggle.firstElementChild.className = "fa-solid fa-brush")
+    : (toggle.firstElementChild.className = "fa-solid fa-brush");
 });
