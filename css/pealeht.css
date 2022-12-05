@@ -1,29 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Raleway:wght@200&display=swap');
+
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 /*----- taustapilt -----*/
-.taguminePilt{
+.taustaPilt{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(taustapilt.jpeg);
-  height: 100vh;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: darken;
-  position: relative;
 }
 /*----- suur lööklause + kirjeldav lause  -----*/
 .tutvustavTekst{
   font-family: monospace;
   position: relative;
   width: auto;
-  top: 10%;
-  left: 5%;
-  max-width: 70%;
+  margin-top: 5%;
+  margin-left: 5%;
   text-align: left;
   color: white;
 }
@@ -38,22 +31,21 @@
 }
 /*----- kolm kasti lehe alumises osas koos ikoonide ja kirjeldavate tekstidega  -----*/
 .pildid{
-  position: relative;
   height: 7cm;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   font-size: 60px;
   color: white;
-  padding: 1cm;
   font-family: 'Raleway', sans-serif;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 100px;
 }
 .pildid .kast{
   background: rgba(0,0,0,0.5);
   display: flex;
   padding: 20px;
-  margin: 0px 50px;
+  margin: auto;
   align-items: center;
   border-radius: 10px;
   width: 500px;
@@ -73,24 +65,22 @@
 }
 /*----- jalus koos ikoonide ja kontaktandmetega -----*/
 .jalus{
-  position: absolute;
   width: 100%;
-  bottom: 0%;
   height: 2cm;
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 0px 50px;  
+  position: absolute;
+  bottom: 0px;
 }
 .jalus #ikoonid {
-  color: white;
   font-size: 1cm;
   letter-spacing: 15px;
   align-items: center;
   text-decoration: none;
 }
 .jalus ul li {
-  color: white;
   font-size: 30px;
   display: inline;
   padding: 0px 30px;
@@ -100,12 +90,12 @@
   text-decoration: none;
 }
 .jalus #ikoonid a:link{
-  color: white;
+  color: black;
 }
 .jalus #ikoonid a:hover{
-  color: white;
+  color: black;
 }
 .jalus #ikoonid a:visited {
-  color: white;
+  color: black;
 }
 
