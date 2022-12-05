@@ -49,7 +49,7 @@
   padding: 1cm;
   font-family: 'Raleway', sans-serif;
 }
-.pildid #kast{
+.pildid .kast{
   background: rgba(0,0,0,0.5);
   display: flex;
   padding: 20px;
@@ -61,7 +61,7 @@
   overflow:auto;
 }
 
-.pildid #pealkiri {
+.pildid .pealkiri {
   color: aquamarine;
   font-size: 25px;
 }
