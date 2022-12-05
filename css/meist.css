@@ -74,6 +74,13 @@ figure {
     justify-content: center;
     align-items: center;
 }
+.tulp img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
+}
 .kontaktid {
     font-size: 30px;
     padding: 10px;
@@ -108,21 +115,37 @@ figure {
     font-size: 20px;
 }
 /* tule tööle */
+
 .põhjused {
-    padding: 0rem 2rem 0rem 2rem;
     font-family: 'Poppins', sans-serif;
+    padding: 10px;
     justify-content: center;
     align-content: center;
     display: grid;
-    gap: 4px;
+    gap: 15%;
     grid-auto-flow: column;
+
 }
-img {
+.põhjused img {
     margin-left: 5%;
     margin-top: 5%;
     width:  100px;
     height: 100px;
     object-fit: cover;
+}
+.pilt {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.põhjus {
+    display: grid;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
 }
 
 .töö {
